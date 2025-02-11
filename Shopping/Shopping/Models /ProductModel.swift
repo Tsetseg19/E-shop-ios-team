@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ShoppingCartItem: Identifiable, Codable {
+struct ProductModel: Identifiable, Codable {
     let id: String
     let name: String
     let price: String
